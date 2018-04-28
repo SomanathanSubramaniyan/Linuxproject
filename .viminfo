@@ -45,22 +45,23 @@
 	s
 
 # File marks:
-'0  52  35  ~/project.sh
-'1  2  0  ~/.git/COMMIT_EDITMSG
-'2  1  0  ~/.git/COMMIT_EDITMSG
-'3  1  0  ~/backup_2804_project.sh
-'4  13  17  ~/project.sh
-'5  4  0  ~/project.sh
-'6  2  0  ~/project.sh
-'7  1  0  ~/project.sh
-'8  3  13  ~/project.sh
-'9  54  0  ~/project.sh
+'0  2  6  ~/.git/COMMIT_EDITMSG
+'1  52  35  ~/project.sh
+'2  3  0  ~/.git/COMMIT_EDITMSG
+'3  1  0  ~/.git/COMMIT_EDITMSG
+'4  1  0  ~/backup_2804_project.sh
+'5  13  17  ~/project.sh
+'6  4  0  ~/project.sh
+'7  2  0  ~/project.sh
+'8  1  0  ~/project.sh
+'9  3  13  ~/project.sh
 
 # Jumplist (newest first):
+-'  2  6  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
 -'  52  35  ~/project.sh
 -'  1  0  ~/project.sh
--'  2  0  ~/.git/COMMIT_EDITMSG
--'  1  0  ~/.git/COMMIT_EDITMSG
+-'  3  0  ~/.git/COMMIT_EDITMSG
 -'  1  0  ~/backup_2804_project.sh
 -'  13  17  ~/project.sh
 -'  4  0  ~/project.sh
@@ -154,9 +155,15 @@
 -'  1  0  ~/project
 -'  10  6  ~/project
 -'  1  0  ~/project
--'  10  6  ~/project
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	"	2	6
+	^	2	7
+	.	2	6
+	+	1	6
+	+	2	6
 
 > ~/project.sh
 	"	52	35
@@ -262,12 +269,6 @@
 	+	46	39
 	+	48	38
 	+	52	36
-
-> ~/.git/COMMIT_EDITMSG
-	"	2	0
-	^	2	0
-	.	1	6
-	+	1	6
 
 > ~/backup_2804_project.sh
 	"	1	0
