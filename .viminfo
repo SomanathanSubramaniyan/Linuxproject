@@ -11,8 +11,8 @@
 ~Msle0~/\<w\>
 
 # Command Line History (newest to oldest):
-:wq
 :q!
+:wq
 :sav test.sh
 :ew
 :ewq
@@ -45,22 +45,27 @@
 	s
 
 # File marks:
-'0  2  6  ~/.git/COMMIT_EDITMSG
-'1  52  35  ~/project.sh
-'2  3  0  ~/.git/COMMIT_EDITMSG
-'3  1  0  ~/.git/COMMIT_EDITMSG
-'4  1  0  ~/backup_2804_project.sh
-'5  13  17  ~/project.sh
-'6  4  0  ~/project.sh
-'7  2  0  ~/project.sh
-'8  1  0  ~/project.sh
-'9  3  13  ~/project.sh
+'0  176  0  ~/SomanathanSubramaniyan.txt
+'1  12  17  ~/project.sh
+'2  121  0  ~/txt.txt
+'3  1  7  ~/.git/COMMIT_EDITMSG
+'4  2  6  ~/.git/COMMIT_EDITMSG
+'5  52  35  ~/project.sh
+'6  3  0  ~/.git/COMMIT_EDITMSG
+'7  1  0  ~/backup_2804_project.sh
+'8  13  17  ~/project.sh
+'9  4  0  ~/project.sh
 
 # Jumplist (newest first):
--'  2  6  ~/.git/COMMIT_EDITMSG
--'  1  0  ~/.git/COMMIT_EDITMSG
--'  52  35  ~/project.sh
+-'  176  0  ~/SomanathanSubramaniyan.txt
+-'  1  1  ~/SomanathanSubramaniyan.txt
+-'  12  17  ~/project.sh
 -'  1  0  ~/project.sh
+-'  121  0  ~/txt.txt
+-'  1  0  ~/txt.txt
+-'  1  7  ~/.git/COMMIT_EDITMSG
+-'  2  6  ~/.git/COMMIT_EDITMSG
+-'  52  35  ~/project.sh
 -'  3  0  ~/.git/COMMIT_EDITMSG
 -'  1  0  ~/backup_2804_project.sh
 -'  13  17  ~/project.sh
@@ -151,25 +156,16 @@
 -'  1  0  ~/project
 -'  10  6  ~/project
 -'  1  0  ~/project
--'  10  6  ~/project
--'  1  0  ~/project
--'  10  6  ~/project
--'  1  0  ~/project
 
 # History of marks within files (newest to oldest):
 
-> ~/.git/COMMIT_EDITMSG
-	"	2	6
-	^	2	7
-	.	2	6
-	+	1	6
-	+	2	6
+> ~/SomanathanSubramaniyan.txt
+	"	176	0
 
 > ~/project.sh
-	"	52	35
-	^	52	36
-	.	52	36
-	+	31	27
+	"	12	17
+	^	12	18
+	.	12	17
 	+	37	30
 	+	43	25
 	+	55	31
@@ -269,6 +265,18 @@
 	+	46	39
 	+	48	38
 	+	52	36
+	+	12	17
+
+> ~/txt.txt
+	"	121	0
+
+> ~/.git/COMMIT_EDITMSG
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	6
+	+	2	6
+	+	1	7
 
 > ~/backup_2804_project.sh
 	"	1	0
