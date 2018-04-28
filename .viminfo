@@ -41,32 +41,31 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	s
 
 # File marks:
-'0  176  0  ~/SomanathanSubramaniyan.txt
-'1  12  17  ~/project.sh
-'2  121  0  ~/txt.txt
-'3  1  7  ~/.git/COMMIT_EDITMSG
-'4  2  6  ~/.git/COMMIT_EDITMSG
-'5  52  35  ~/project.sh
-'6  3  0  ~/.git/COMMIT_EDITMSG
-'7  1  0  ~/backup_2804_project.sh
-'8  13  17  ~/project.sh
-'9  4  0  ~/project.sh
+'0  1  1  ~/SomanathanSubramaniyan.txt
+'1  2  0  ~/.git/COMMIT_EDITMSG
+'2  176  0  ~/SomanathanSubramaniyan.txt
+'3  12  17  ~/project.sh
+'4  121  0  ~/txt.txt
+'5  1  7  ~/.git/COMMIT_EDITMSG
+'6  3  6  ~/.git/COMMIT_EDITMSG
+'7  52  35  ~/project.sh
+'8  4  0  ~/.git/COMMIT_EDITMSG
+'9  1  0  ~/backup_2804_project.sh
 
 # Jumplist (newest first):
--'  176  0  ~/SomanathanSubramaniyan.txt
 -'  1  1  ~/SomanathanSubramaniyan.txt
+-'  2  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
+-'  176  0  ~/SomanathanSubramaniyan.txt
 -'  12  17  ~/project.sh
 -'  1  0  ~/project.sh
 -'  121  0  ~/txt.txt
 -'  1  0  ~/txt.txt
--'  1  7  ~/.git/COMMIT_EDITMSG
--'  2  6  ~/.git/COMMIT_EDITMSG
+-'  3  6  ~/.git/COMMIT_EDITMSG
 -'  52  35  ~/project.sh
--'  3  0  ~/.git/COMMIT_EDITMSG
+-'  4  0  ~/.git/COMMIT_EDITMSG
 -'  1  0  ~/backup_2804_project.sh
 -'  13  17  ~/project.sh
 -'  4  0  ~/project.sh
@@ -153,14 +152,19 @@
 -'  10  6  ~/project
 -'  1  0  ~/project
 -'  10  6  ~/project
--'  1  0  ~/project
--'  10  6  ~/project
--'  1  0  ~/project
 
 # History of marks within files (newest to oldest):
 
 > ~/SomanathanSubramaniyan.txt
-	"	176	0
+	"	1	1
+
+> ~/.git/COMMIT_EDITMSG
+	"	2	0
+	^	2	0
+	.	1	7
+	+	1	6
+	+	3	6
+	+	1	7
 
 > ~/project.sh
 	"	12	17
@@ -269,14 +273,6 @@
 
 > ~/txt.txt
 	"	121	0
-
-> ~/.git/COMMIT_EDITMSG
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	6
-	+	2	6
-	+	1	7
 
 > ~/backup_2804_project.sh
 	"	1	0
