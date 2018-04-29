@@ -498,3 +498,25 @@ echo ""
 echo "*****The history command execution  ends ********************************"
 echo ""
 exit
+ls
+vim project.sh 
+./project.sh > SomanathanSubramaniyan.txt
+awk 'sub("$","\r")' SomanathanSubramaniyan.txt  > win.txt
+git commit -a
+ls
+git push origin master
+nano
+which nano
+ls
+cat Music
+cat win.txt
+sudo
+sudo updatedb
+who
+history
+cat project.sh | less
+logout
+exit
+ls 
+who
+logout

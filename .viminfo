@@ -41,24 +41,33 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	e
 
 # File marks:
-'0  54  3  ~/project.sh
-'1  2  0  ~/.git/COMMIT_EDITMSG
-'2  1  0  ~/.git/COMMIT_EDITMSG
-'3  3  0  ~/.git/COMMIT_EDITMSG
-'4  1  1  ~/SomanathanSubramaniyan.txt
-'5  4  0  ~/.git/COMMIT_EDITMSG
-'6  176  0  ~/SomanathanSubramaniyan.txt
-'7  12  17  ~/project.sh
-'8  121  0  ~/txt.txt
-'9  5  6  ~/.git/COMMIT_EDITMSG
+'0  18  43  ~/q23.sh
+'1  11  37  ~/q23.sh
+'2  21  0  ~/q23.sh
+'3  20  0  ~/q23.sh
+'4  22  3  ~/q23.sh
+'5  1  0  ~/q23.sh
+'6  8  19  ~/q23.sh
+'7  1  6  ~/.git/COMMIT_EDITMSG
+'8  54  3  ~/project.sh
+'9  2  0  ~/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  18  43  ~/q23.sh
+-'  1  0  ~/q23.sh
+-'  11  37  ~/q23.sh
+-'  21  0  ~/q23.sh
+-'  20  0  ~/q23.sh
+-'  22  3  ~/q23.sh
+-'  8  19  ~/q23.sh
+-'  1  6  ~/.git/COMMIT_EDITMSG
 -'  54  3  ~/project.sh
 -'  1  0  ~/project.sh
 -'  2  0  ~/.git/COMMIT_EDITMSG
--'  1  0  ~/.git/COMMIT_EDITMSG
 -'  3  0  ~/.git/COMMIT_EDITMSG
 -'  1  1  ~/SomanathanSubramaniyan.txt
 -'  4  0  ~/.git/COMMIT_EDITMSG
@@ -146,14 +155,52 @@
 -'  10  6  ~/project
 -'  1  0  ~/project
 -'  10  6  ~/project
--'  1  0  ~/project
--'  10  6  ~/project
--'  1  0  ~/project
--'  10  6  ~/project
--'  1  0  ~/project
--'  10  6  ~/project
 
 # History of marks within files (newest to oldest):
+
+> ~/q23.sh
+	"	18	43
+	^	18	44
+	.	18	43
+	+	11	33
+	+	2	31
+	+	5	0
+	+	2	0
+	+	5	0
+	+	10	3
+	+	11	33
+	+	4	28
+	+	22	3
+	+	8	20
+	+	4	31
+	+	12	35
+	+	12	65
+	+	12	39
+	+	3	8
+	+	19	1
+	+	7	1
+	+	8	1
+	+	10	1
+	+	11	2
+	+	12	8
+	+	13	26
+	+	16	23
+	+	14	5
+	+	6	20
+	+	19	1
+	+	6	0
+	+	8	13
+	+	20	4
+	+	11	37
+	+	18	43
+
+> ~/.git/COMMIT_EDITMSG
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+	+	5	6
+	+	1	6
 
 > ~/project.sh
 	"	54	3
@@ -259,14 +306,6 @@
 	+	46	57
 	+	48	55
 	+	52	54
-
-> ~/.git/COMMIT_EDITMSG
-	"	2	0
-	^	2	0
-	.	1	7
-	+	1	6
-	+	5	6
-	+	1	7
 
 > ~/SomanathanSubramaniyan.txt
 	"	1	1
