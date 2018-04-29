@@ -1,54 +1,51 @@
   
-************************************************************************************
+*************************************************************************
   
-Current System Date                   : Sat Apr 28 19:18:25 UTC 2018
+Current System Date is                : Sun Apr 29 07:05:16 UTC 2018
 The hostname is                       : ip-172-31-28-234
 The Architecture of the hostsystem is : x86_64
-The uptime of this computer/system is :  19:18:25 up 47 days, 19:47,  2 users,  load average: 0.00, 0.00, 0.00
+The uptime of this computer/system is :  07:05:16 up 48 days,  7:34,  1 user,  load average: 0.00, 0.00, 0.00
 Result of the whoami command          : somanathansubramaniyan
 
 
-****The results of who command starts*****************
+****The result of who command execution starts***************************
 
-asachan  pts/0        2018-04-28 18:55 (51.37.21.51)
-somanathansubramaniyan pts/1        2018-04-28 19:04 (37.228.255.50)
+somanathansubramaniyan pts/0        2018-04-29 06:58 (37.228.255.50)
 
-***The results of who command ends*******************
+***The result of who command execution  ends*****************************
 
-***The reults of Finger Command starts****************
+***The result of Finger Command execution starts*************************
 
 Login                  Name      Tty      Idle  Login Time   Office     Office Phone
-asachan                          pts/0       6  Apr 28 18:55 (51.37.21.51)
-somanathansubramaniyan           pts/1          Apr 28 19:04 (37.228.255.50)
+somanathansubramaniyan           pts/0          Apr 29 06:58 (37.228.255.50)
 
-***The results of Finger Command ends *****************
+***The result of Finger Command execution ends **************************
 
-***The reults of w Command starts*********************
+***The result of w Command execution  starts*****************************
 
- 19:18:25 up 47 days, 19:47,  2 users,  load average: 0.00, 0.00, 0.00
+ 07:05:16 up 48 days,  7:34,  1 user,  load average: 0.00, 0.00, 0.00
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-asachan  pts/0    51.37.21.51      18:55    6:17   0.08s  0.05s vim cammand.sh
-somanath pts/1    37.228.255.50    19:04    1.00s  0.04s  0.00s w
+somanath pts/0    37.228.255.50    06:58    4.00s  0.04s  0.00s w
 
-***The reults of w Command ends ***********************
+***The result of w Command execution  ends ******************************
 
-******The top command results starts *****************
+******The top command execution  result starts **************************
 
-top - 19:18:25 up 47 days, 19:47,  2 users,  load average: 0.00, 0.00, 0.00
-Tasks: 115 total,   1 running, 114 sleeping,   0 stopped,   0 zombie
+top - 07:05:16 up 48 days,  7:34,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 108 total,   1 running, 107 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem :  1014552 total,   160568 free,    63012 used,   790972 buff/cache
-KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem 
+KiB Mem :  1014552 total,    89904 free,    52780 used,   871868 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   740968 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
-    1 root      20   0  119820   5392   3456 S  0.0  0.5   0:40.35 systemd
+    1 root      20   0  119820   5392   3456 S  0.0  0.5   0:40.85 systemd
     2 root      20   0       0      0      0 S  0.0  0.0   0:00.01 kthreadd
-    3 root      20   0       0      0      0 S  0.0  0.0   0:16.32 ksoftirqd/0
+    3 root      20   0       0      0      0 S  0.0  0.0   0:16.59 ksoftirqd/0
     5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
-    7 root      20   0       0      0      0 S  0.0  0.0   0:28.29 rcu_sched
+    7 root      20   0       0      0      0 S  0.0  0.0   0:28.64 rcu_sched
     8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
     9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
-   10 root      rt   0       0      0      0 S  0.0  0.0   0:19.06 watchdog/0
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:19.26 watchdog/0
    11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
    12 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns
    13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf
@@ -57,7 +54,7 @@ KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem
    17 root      20   0       0      0      0 S  0.0  0.0   0:00.80 khungtaskd
    18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback
    19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd
-   20 root      39  19       0      0      0 S  0.0  0.0   0:07.35 khugepaged
+   20 root      39  19       0      0      0 S  0.0  0.0   0:07.43 khugepaged
    21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto
    22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd
    23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
@@ -65,10 +62,10 @@ KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem
    25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff
    26 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md
    27 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq
-   30 root      20   0       0      0      0 S  0.0  0.0   0:00.50 kswapd0
+   30 root      20   0       0      0      0 S  0.0  0.0   0:00.53 kswapd0
    31 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vmstat
-   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_mark
-   33 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea
+   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_ma+
+   33 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kt+
    49 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld
    50 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
    51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
@@ -99,14 +96,14 @@ KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem
    76 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1
    77 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_1
    79 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
-   83 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrconf
+   83 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrco+
    96 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq
   258 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 raid5wq
   289 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
-  310 root      20   0       0      0      0 S  0.0  0.0   0:06.96 jbd2/xvda1-8
-  311 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ext4-rsv-conver
-  358 root       0 -20       0      0      0 S  0.0  0.0   0:01.81 kworker/0:1H
-  396 root      20   0   28428   2684   2332 S  0.0  0.3   4:52.46 systemd-journal
+  310 root      20   0       0      0      0 S  0.0  0.0   0:07.04 jbd2/xvda1-8
+  311 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ext4-rsv-co+
+  358 root       0 -20       0      0      0 S  0.0  0.0   0:01.83 kworker/0:1H
+  396 root      20   0   28428   3208   2856 S  0.0  0.3   4:55.79 systemd-jou+
   398 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 iscsi_eh
   401 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_addr
   403 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_mcast
@@ -116,50 +113,43 @@ KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem
   408 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 rdma_cm
   410 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd
   436 root      20   0  102968   1296   1112 S  0.0  0.1   0:00.00 lvmetad
-  952 root      20   0   16120   2812   1952 S  0.0  0.3   0:01.33 dhclient
- 1130 root      20   0    5220    116      0 S  0.0  0.0   1:46.56 iscsid
- 1131 root      10 -10    5720   3512   2428 S  0.0  0.3   8:14.98 iscsid
- 1135 message+  20   0   43016   3376   2780 S  0.0  0.3   0:05.10 dbus-daemon
+  952 root      20   0   16120   2812   1952 S  0.0  0.3   0:01.35 dhclient
+ 1130 root      20   0    5220    116      0 S  0.0  0.0   1:47.64 iscsid
+ 1131 root      10 -10    5720   3512   2428 S  0.0  0.3   8:20.08 iscsid
+ 1135 message+  20   0   43016   3368   2772 S  0.0  0.3   0:05.16 dbus-daemon
  1139 daemon    20   0   26044   1948   1752 S  0.0  0.2   0:00.04 atd
- 1158 root      20   0  275608   6028   4252 S  0.0  0.6   3:14.30 accounts-daemon
- 1162 root      20   0   28616   2948   2616 S  0.0  0.3   0:03.95 systemd-logind
- 1165 root      20   0   65508   4328   3608 S  0.0  0.4   0:58.22 sshd
- 1168 syslog    20   0  260628   3640   2056 S  0.0  0.4   1:17.23 rsyslogd
- 1171 root      20   0   27728   2456   2184 S  0.0  0.2   0:04.70 cron
- 1174 root      20   0  636844   5304   1452 S  0.0  0.5   0:14.78 lxcfs
+ 1158 root      20   0  275608   6036   4252 S  0.0  0.6   3:16.58 accounts-da+
+ 1162 root      20   0   28616   2948   2616 S  0.0  0.3   0:03.99 systemd-log+
+ 1165 root      20   0   65508   4320   3600 S  0.0  0.4   0:59.06 sshd
+ 1168 syslog    20   0  260628   3640   2056 S  0.0  0.4   1:18.20 rsyslogd
+ 1171 root      20   0   27728   2460   2188 S  0.0  0.2   0:04.75 cron
+ 1174 root      20   0  636844   5348   1452 S  0.0  0.5   0:15.03 lxcfs
  1177 root      20   0    4396   1232   1144 S  0.0  0.1   0:00.00 acpid
- 1184 root      20   0  281460  14492   3920 S  0.0  1.4   1:39.12 snapd
+ 1184 root      20   0  281460  14404   3848 S  0.0  1.4   1:40.16 snapd
  1205 root      20   0   13372    156     20 S  0.0  0.0   0:00.22 mdadm
- 1207 root      20   0  277176   4976   4304 S  0.0  0.5   0:00.89 polkitd
+ 1207 root      20   0  277176   4964   4292 S  0.0  0.5   0:00.90 polkitd
  1280 root      20   0   14472   1524   1392 S  0.0  0.2   0:00.00 agetty
  1283 root      20   0   14656   1508   1380 S  0.0  0.1   0:00.03 agetty
- 5831 root      20   0       0      0      0 S  0.0  0.0   0:05.47 kworker/u30:1
-13036 systemd+  20   0  100324   2332   2116 S  0.0  0.2   0:02.57 systemd-timesyn
-14927 root      20   0   42120   2580   2104 S  0.0  0.3   0:02.20 systemd-udevd
+ 5831 root      20   0       0      0      0 S  0.0  0.0   0:06.16 kworker/u30+
+13036 systemd+  20   0  100324   2332   2116 S  0.0  0.2   0:02.60 systemd-tim+
+14927 root      20   0   42120   2580   2104 S  0.0  0.3   0:02.22 systemd-ude+
 19172 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfsalloc
-19173 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfs_mru_cache
-20023 root      20   0       0      0      0 S  0.0  0.0   0:00.10 kworker/u30:0
-20050 root      20   0       0      0      0 S  0.0  0.0   0:00.08 kworker/0:2
-20637 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:3
-20677 root      20   0   92828   6596   5668 S  0.0  0.7   0:00.01 sshd
-20679 asachan   20   0   45276   4652   3952 S  0.0  0.5   0:00.00 systemd
-20680 asachan   20   0  143272   2048      0 S  0.0  0.2   0:00.00 (sd-pam)
-20716 asachan   20   0   92828   3540   2616 S  0.0  0.3   0:00.02 sshd
-20717 asachan   20   0   21388   5152   3212 S  0.0  0.5   0:00.03 bash
-20936 root      20   0   92908   6988   5960 S  0.0  0.7   0:00.02 sshd
-20954 somanat+  20   0   45276   4528   3820 S  0.0  0.4   0:00.00 systemd
-20955 somanat+  20   0  143272   2048      0 S  0.0  0.2   0:00.00 (sd-pam)
-20991 somanat+  20   0   92908   3620   2592 S  0.0  0.4   0:00.08 sshd
-20992 somanat+  20   0   21396   5380   3400 S  0.0  0.5   0:00.04 bash
-21157 asachan   20   0   52880   8620   5452 S  0.0  0.8   0:00.05 vim
-21299 root      20   0   92676   6544   5648 S  0.0  0.6   0:00.00 sshd
-21300 sshd      20   0   65508   3308   2588 S  0.0  0.3   0:00.00 sshd
-21301 somanat+  20   0   11340   2972   2668 S  0.0  0.3   0:00.00 project.sh
-21310 somanat+  20   0   40388   3536   3024 R  0.0  0.3   0:00.00 top
+19173 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfs_mru_cac+
+22264 root      20   0       0      0      0 S  0.0  0.0   0:00.63 kworker/u30+
+25335 root      20   0       0      0      0 S  0.0  0.0   0:00.50 kworker/0:3
+27096 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:1
+27548 root      20   0   92828   6904   5972 S  0.0  0.7   0:00.00 sshd
+27550 somanat+  20   0   45276   4612   3908 S  0.0  0.5   0:00.00 systemd
+27551 somanat+  20   0  143272   2048      0 S  0.0  0.2   0:00.00 (sd-pam)
+27609 somanat+  20   0   92828   3396   2468 S  0.0  0.3   0:00.12 sshd
+27610 somanat+  20   0   21396   5380   3400 S  0.0  0.5   0:00.04 bash
+27690 root      20   0   65508   5808   5104 S  0.0  0.6   0:00.00 sshd
+27691 somanat+  20   0   11340   3124   2820 S  0.0  0.3   0:00.00 project.sh
+27700 somanat+  20   0   40388   3644   3140 R  0.0  0.4   0:00.00 top
 
-*****The top command results ends*********************
+*****The top command execution result  ends******************************
 
-*****The History command starts ***********************
+*****The History command execution  starts ******************************
 
   501  var1=$(date)
   502  var2=$(hostname)
@@ -172,5 +162,5 @@ KiB Swap:        0 total,        0 free,        0 used.   730452 avail Mem
   509  var9=$(top -n 1 -b)
   510  var10=$(history 10)
 
-*****The history command ends *************************
+*****The history command execution  ends ********************************
 

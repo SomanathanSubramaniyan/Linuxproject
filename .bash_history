@@ -1,81 +1,3 @@
-echo "  "
-echo "************************************************************************************"
-echo "  "
-echo "Current System Date                   :"  "$var1"
-echo "The hostname is                       :"  "$var2"
-echo "The Architecture of the hostsystem is :"  "$var3"
-echo "The uptime of this computer/system is :"  "$var4"
-echo "Result of the whoami command          :"  "$var5"
-echo ""
-echo ""
-echo "****The results of who command starts here*****************"
-echo ""
-echo "$var6"
-echo ""
-echo "***The results of who command ends hHere*******************"
-echo ""
-echo "***The reults of Finger Command starts here****************"
-echo ""
-echo "$var7"
-echo ""
-echo "***The results of Finger Command ends here*****************"
-echo ""
-echo "***The reults of w Command starts here*********************"
-echo ""
-echo "$var8"
-echo ""
-echo "***The reults of w Command ends here***********************"
-echo ""
-echo "******The top command results starts here *****************"
-echo ""
-echo "$var9"
-echo ""
-echo "*****The top command results ends here*********************"
-echo ""
-echo "*****The History command starts here***********************"
-echo ""
-echo "$var10"
-echo ""
-echo "*****The history command ends here*************************"
-echo ""
-exit
-var1=$(date)
-var2=$(hostname)
-var3=$(arch)
-var4=$(uptime)
-var5=$(whoami)
-var6=$(who)
-var7=$(finger)
-var8=$(w)
-var9=$(top -n 1)
-var10=$(history 10)
-echo "  "
-echo "************************************************************************************"
-echo "  "
-echo "Current System Date                   :"  "$var1"
-echo "The hostname is                       :"  "$var2"
-echo "The Architecture of the hostsystem is :"  "$var3"
-echo "The uptime of this computer/system is :"  "$var4"
-echo "Result of the whoami command          :"  "$var5"
-echo ""
-echo ""
-echo "****The results of who command starts here*****************"
-echo ""
-echo "$var6"
-echo ""
-echo "***The results of who command ends hHere*******************"
-echo ""
-echo "***The reults of Finger Command starts here****************"
-echo ""
-echo "$var7"
-echo ""
-echo "***The results of Finger Command ends here*****************"
-echo ""
-echo "***The reults of w Command starts here*********************"
-echo ""
-echo "$var8"
-echo ""
-echo "***The reults of w Command ends here***********************"
 echo ""
 echo "******The top command results starts here *****************"
 echo ""
@@ -496,5 +418,83 @@ echo ""
 echo "$var10"
 echo ""
 echo "*****The history command ends *************************"
+echo ""
+exit
+ls
+top
+top -n 1 -b
+top -n 1 -b > txt.txt
+vim txt.txt
+$less txt.txt
+$ less txt.txt
+vim project.sh 
+./project.sh > SomanathanSubramaniyan.txt
+vim SomanathanSubramaniyan.txt 
+git commit -a
+git push orgin master
+git push origin master
+vim SomanathanSubramaniyan.txt 
+awk
+awk 'sub("$","\r")' SomanathanSubramaniyan.txt  > win.txt
+ls
+rm txt.txt
+git commit -a
+git push origin master
+git commit -a
+ls
+git add win.txt
+git commit -a
+ls
+git push origin master
+exit
+var1=$(date)
+var2=$(hostname)
+var3=$(arch)
+var4=$(uptime)
+var5=$(whoami)
+var6=$(who)
+var7=$(finger)
+var8=$(w)
+var9=$(top -n 1 -b)
+var10=$(history 10)
+echo "  "
+echo "*************************************************************************"
+echo "  "
+echo "Current System Date is                :"  "$var1"
+echo "The hostname is                       :"  "$var2"
+echo "The Architecture of the hostsystem is :"  "$var3"
+echo "The uptime of this computer/system is :"  "$var4"
+echo "Result of the whoami command          :"  "$var5"
+echo ""
+echo ""
+echo "****The result of who command execution starts***************************"
+echo ""
+echo "$var6"
+echo ""
+echo "***The result of who command execution  ends*****************************"
+echo ""
+echo "***The result of Finger Command execution starts*************************"
+echo ""
+echo "$var7"
+echo ""
+echo "***The result of Finger Command execution ends **************************"
+echo ""
+echo "***The result of w Command execution  starts*****************************"
+echo ""
+echo "$var8"
+echo ""
+echo "***The result of w Command execution  ends ******************************"
+echo ""
+echo "******The top command execution  result starts **************************"
+echo ""
+echo "$var9"
+echo ""
+echo "*****The top command execution result  ends******************************"
+echo ""
+echo "*****The History command execution  starts ******************************"
+echo ""
+echo "$var10"
+echo ""
+echo "*****The history command execution  ends ********************************"
 echo ""
 exit
